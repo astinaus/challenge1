@@ -1,0 +1,38 @@
+h1,
+p {
+  margin: initial;
+  padding: initial;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  background: fixed center url(images/bg.png);
+  color: #fff;
+}
+
+.wrapper {
+  margin: 100px auto;
+  width: 400px;
+}
+
+.section {
+  width: 300px;
+  background-color: #94592e;
+  border-radius: 0 0 12% 12%;
+  border-bottom: 10px solid #462209;
+}
+
+.title {
+  padding: 10px 0 0 16px;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.text {
+  padding: 5px 16px 30px 16px;
+  color: #e7c2c2;
+  line-height: 1.4rem;
+}
