@@ -15,24 +15,30 @@ body {
 
 .wrapper {
   margin: 100px auto;
-  width: 400px;
+  width: 300px;
 }
 
-.section {
-  width: 300px;
+.card-cover {
+  margin: 0 auto;
+  display: block;
+}
+
+.card-contents {
+  background-image: url(images/green.png);
+  background-repeat: repeat-x ;
   background-color: #94592e;
-  border-radius: 0 0 12% 12%;
+  border-radius: 0 0 50px 50px;
   border-bottom: 10px solid #462209;
+  padding: 64px 20px 40px 20px;
 }
 
 .title {
-  padding: 10px 0 0 16px;
   font-size: 32px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .text {
-  padding: 5px 16px 30px 16px;
   color: #e7c2c2;
   line-height: 1.4rem;
+  margin-bottom: 1.2em;
 }
